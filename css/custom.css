@@ -1,0 +1,83 @@
+/* Add here all your CSS customizations */
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  html:not(.sticky-header-active) #header.header-transparent:not(.header-semi-transparent) .header-body {
+    background-color: #fff !important;
+    opacity: 1;
+  }
+  
+
+html .bg-color-dark,html .bg-dark {
+  background-color: #fff !important;
+  opacity: 1;
+}
+
+
+.apple {
+  /* background-color: #D83A39; */
+  color: #fff;
+}
+
+html .bg-color-light,
+html .bg-light {
+	background-color: #f3f3f3 !important;
+}
+
+#header .header-nav.header-nav-links.header-nav-light-text nav > ul > li > a, #header .header-nav.header-nav-line.header-nav-light-text nav > ul > li > a {
+  color: green;
+}
+#header .header-nav.header-nav-links nav > ul li:hover > a {
+  color: #D83A39;
+}
+
+#header .header-nav.header-nav-links nav > ul:not(:hover) > li > a.active {
+  color: #D83A39;
+}
+
+section.section {
+	background: #f7f7f7;
+	border-top: 5px solid #f1f1f1;
+	margin: 0 0;
+	padding: 50px 0;
+}
+
+/* p {
+	color: #fff;
+	line-height: 26px;
+	margin: 0 0 20px;
+} */
+
+html .bg-color-secondary,
+html .bg-secondary {
+  background-color:#D83A39 !important;
+}
+.tint {
+  /* background-color: #000;; */
+  opacity: .5;
+}
+
+/* .zebra {
+  object-fit: cover;  
+  width: 400px;  
+  height: 200x;
+} */
+
+section.section {
+	background: #f7f7f7;
+	border-top: 5px solid green;
+	margin: 0 0;
+	padding: 50px 0;
+}
