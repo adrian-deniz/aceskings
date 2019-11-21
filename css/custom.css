@@ -25,12 +25,6 @@ html .bg-color-dark,html .bg-dark {
   opacity: 1;
 }
 
-
-.apple {
-  /* background-color: #D83A39; */
-  color: #fff;
-}
-
 html .bg-color-light,
 html .bg-light {
 	background-color: #f3f3f3 !important;
@@ -54,30 +48,66 @@ section.section {
 	padding: 50px 0;
 }
 
-/* p {
-	color: #fff;
-	line-height: 26px;
-	margin: 0 0 20px;
-} */
-
 html .bg-color-secondary,
 html .bg-secondary {
   background-color:#D83A39 !important;
 }
 .tint {
-  /* background-color: #000;; */
   opacity: .5;
 }
-
-/* .zebra {
-  object-fit: cover;  
-  width: 400px;  
-  height: 200x;
-} */
 
 section.section {
 	background: #f7f7f7;
 	border-top: 5px solid green;
 	margin: 0 0;
 	padding: 50px 0;
+}
+
+html .btn-primary {
+	background-color: #D83A39;
+	border-color: #D83A39 #D83A39 #D83A39;
+	color: #FFF;
+}
+
+html .btn-primary:hover {
+	background-color: #c02626;
+	border-color: #c02626 #c02626 #c02626;
+	color: #FFF;
+}
+
+html .btn-primary:active {
+	background-color: #D83A39 !important;
+	background-image: none !important;
+	border-color: #D83A39#D83A39 #D83A39 !important;
+}
+
+html body .tabs.tabs-bottom .nav-tabs li .nav-link:hover,
+html.dark body .tabs.tabs-bottom .nav-tabs li .nav-link:hover,
+html body .tabs.tabs-bottom .nav-tabs li.active .nav-link,
+html.dark body .tabs.tabs-bottom .nav-tabs li.active .nav-link,
+html body .tabs.tabs-bottom .nav-tabs li.active .nav-link:hover,
+html.dark body .tabs.tabs-bottom .nav-tabs li.active .nav-link:hover,
+html body .tabs.tabs-bottom .nav-tabs li.active .nav-link:focus,
+html.dark body .tabs.tabs-bottom .nav-tabs li.active .nav-link:focus {
+	border-bottom-color: #D83A39;
+}
+
+html body .tabs.tabs-simple .nav-tabs > li.active .nav-link,
+html.dark body .tabs.tabs-simple .nav-tabs > li.active .nav-link,
+html body .tabs.tabs-simple .nav-tabs > li.active .nav-link:focus,
+html.dark body .tabs.tabs-simple .nav-tabs > li.active .nav-link:focus,
+html body .tabs.tabs-simple .nav-tabs > li .nav-link:hover,
+html.dark body .tabs.tabs-simple .nav-tabs > li .nav-link:hover,
+html body .tabs.tabs-simple .nav-tabs > li.active .nav-link:hover,
+html.dark body .tabs.tabs-simple .nav-tabs > li.active .nav-link:hover {
+	border-top-color: #D83A39;
+	color: #D83A39;
+}
+
+html .divider.divider-primary.divider-small hr {
+  background: #D83A39;
+}
+
+#googlemaps {
+  height: 389px;
 }

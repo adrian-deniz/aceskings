@@ -633,7 +633,7 @@ html .overlay-color-light:not(.no-skin):before {
 }
 
 html .btn-primary {
-	background-color: #e09b23;
+	background-color: red;
 	border-color: #e09b23 #e09b23 #b67d1a;
 	color: #FFF;
 }
