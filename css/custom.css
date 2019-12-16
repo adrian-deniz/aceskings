@@ -112,6 +112,10 @@ html .divider.divider-primary.divider-small hr {
   height: 389px;
 }
 
+#header .header-btn-collapse-nav {
+  background:#D83A39;;
+}
+
 @media only screen and (max-width: 768px) {
   .custom-btn {
     font-size: 50px;
