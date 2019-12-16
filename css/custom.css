@@ -113,7 +113,7 @@ html .divider.divider-primary.divider-small hr {
 }
 
 @media only screen and (max-width: 768px) {
-  .btn-primary {
+  .custom-btn {
     font-size: 50px;
     margin-top: 80px !important; 
   }
