@@ -55,7 +55,7 @@ nav {
 }
 
 #header .header-nav.header-nav-links nav > ul:not(:hover) > li > a.active {
-  color: #D83A39;
+  color: #D83A39 !important;
 }
 
 section.section {
@@ -157,4 +157,9 @@ html .divider.divider-primary.divider-small hr {
 
 html .text-color-primary, html .text-primary {
   color: #fff !important;
+}
+
+#header .header-nav-main.header-nav-main-mobile-dark nav > ul li a:hover, #header .header-nav-main.header-nav-main-mobile-dark nav > ul li a:focus, #header .header-nav-main.header-nav-main-mobile-dark nav > ul li a:active {
+  background-color: green;
+  color: #D83A39;
 }
