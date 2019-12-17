@@ -139,7 +139,7 @@ html .divider.divider-primary.divider-small hr {
 
 @media only screen and (max-width: 768px) {
   .custom-btn {
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 80px !important; 
   }
   .top-label {
@@ -150,7 +150,7 @@ html .divider.divider-primary.divider-small hr {
     margin-top: 30px !important;
   }
   .bottom-label {
-    font-size: 25px !important;
+    font-size: 15px !important;
     margin-top: 50px !important;
   }
 }
