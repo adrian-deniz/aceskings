@@ -154,3 +154,7 @@ html .divider.divider-primary.divider-small hr {
     margin-top: 50px !important;
   }
 }
+
+html .text-color-primary, html .text-primary {
+  color: #fff !important;
+}
